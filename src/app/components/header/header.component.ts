@@ -1,15 +1,29 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+    accountMenu: boolean = true;
+    userImgURL!: string;
+    user: any;
+    isAuth!: boolean;
+    displayDashbrd: boolean = true;
 
-  ngOnInit(): void {
-  }
+    constructor() { }
+
+    ngOnInit(): void {
+    }
+
+    toggleMenu() {}
+
+    goToUserProfile() {}
+
+    logOut() {}
+
+    isAdmin() {}
 
 }
