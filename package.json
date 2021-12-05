@@ -21,7 +21,11 @@
     "@angular/platform-browser": "~13.0.0",
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/router": "~13.0.0",
+<<<<<<< HEAD
     "firebase": "^9.6.0",
+=======
+    "firebase": "^9.4.0",
+>>>>>>> f572be1b58247b552aa37e917f9948b4b294b19c
     "rxfire": "^6.0.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
