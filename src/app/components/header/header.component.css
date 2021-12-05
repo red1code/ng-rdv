@@ -1,7 +1,7 @@
 nav {
     background-color: #024c7d;
     color: #ffffff;
-    height: 70px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,7 +77,7 @@ nav {
     border-radius: 40px;
     background: #fff;
     color: #024c7d;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
