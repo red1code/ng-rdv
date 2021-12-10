@@ -1,11 +1,12 @@
 export interface User {
     order?: number;
     uid: string;
-    firstName: string;
-    lastName: string;
     email: string;
-    phoneNumber: number;
     imageURL: string;
+    password: string;
     created_at: any;
+    firstName: string;
+    familyName: string;
+    phoneNumber: number;
     role: 'subscriber' | 'analyst' | 'editor' | 'admin';
 }
