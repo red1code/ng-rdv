@@ -3,7 +3,6 @@ export interface User {
     uid: string;
     email: string;
     imageURL: string;
-    password: string;
     created_at: any;
     firstName: string;
     familyName: string;

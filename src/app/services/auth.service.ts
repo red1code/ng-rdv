@@ -27,7 +27,7 @@ export class AuthService {
                 result.user.sendEmailVerification();
                 user.role = 'subscriber';
                 user.uid = result.user.uid;
-                user.created_at = Date.now();
+                user.created_at = new Date();
                 user.imageURL = 'assets/unknown-profile-picture.png';
                 this.fireStore.doc('/profiles/' + user.uid).set(user)
             }).catch((error): any => {
